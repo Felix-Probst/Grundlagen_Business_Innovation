@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Nummernanzeige
+comment0.text=\r\n\ Die\ Klasse\ Nummernanzeige\ repr?sentiert\ Darstellungen\ von\r\n\ digitalen\ Werten,\ die\ von\ Null\ bis\ zu\ einem\ vorgegebenen\ Limit\r\n\ reichen\ k?nnen.\ Das\ Limit\ wird\ definiert,\ wenn\ eine\ Nummernanzeige\r\n\ erzeugt\ wird.\ Die\ darstellbaren\ Werte\ reichen\ von\ Initialwert\ bis\ Limit-1.\r\n\ Wenn\ beispielsweise\ eine\ Nummernanzeige\ f?r\ die\ Sekunden\ einer\r\n\ digitalen\ Uhr\ verwendet\ werden\ soll,\ w?rde\ man\ ihr\ Initialwert\ auf\ 0\ und\ das\ Limit\ auf\ 60\r\n\ setzen,\ damit\ die\ dargestellten\ Werte\ von\ 0\ bis\ 59\ reichen.\r\n\ Wenn\ der\ Wert\ einer\ Nummernanzeige\ erh?ht\ wird,\ wird\ bei\ Erreichen\r\n\ des\ Limits\ der\ Wert\ automatisch\ auf\ Null\ zur?ckgesetzt.\r\n\ \r\n\ Es\ gibt\ auch\ Nummernanzeige\ ohne\ Limit,\ wie\ z.B.\ das\ Jahr.\ Somit\r\n\ wird\ bei\ der\ Erzeugung\ einer\ Nummernanzeige\ das\ Limit\ auf\ 0\ gesetzt.\r\n\ \ \r\n\ \r\n\ @author\ Antonia\ Albani\r\n\ @version\ 2012.10.23\r\n\ \r\n
+comment1.params=anzeigeLimit\ initialwert
+comment1.target=Nummernanzeige(int,\ int)
+comment1.text=\r\n\ Konstruktor\ f?r\ Exemplare\ der\ Klasse\ Nummernanzeige.\r\n\ Setzt\ das\ Limit,\ bei\ dem\ die\ Anzeige\ zur?ckgesetzt\ wird\ und\r\n\ den\ Initialwert,\ der\ angibt\ wo\ mit\ Z?hlen\ angefangen\ wird.\r\n
+comment2.params=initialwert
+comment2.target=Nummernanzeige(int)
+comment2.text=\r\n\ Konstruktor\ f?r\ Exemplare\ der\ Klasse\ Nummernanzeige.\r\n\ F?r\ den\ Fall,\ dass\ kein\ Limit\ gebraucht\ wird,\ wird\ Limit\ auf\ 0\ \r\n\ gesetzt.\ Der\ initialwert\ gibt\ an\ wo\ mit\ Z?hlen\ angefangen\ wird.\r\n
+comment3.params=
+comment3.target=int\ gibWert()
+comment3.text=\r\n\ Liefere\ den\ aktuellen\ Wert\ als\ int.\r\n
+comment4.params=limit
+comment4.target=void\ setzeLimit(int)
+comment4.text=\r\n\ Dieser\ Methode\ erlaubt\ es\ das\ Limit\ neu\ zu\ setzen\r\n
+comment5.params=laenge
+comment5.target=java.lang.String\ gibAnzeigewert(int)
+comment5.text=\r\n\ Liefere\ den\ Anzeigewert,\ also\ den\ Wert\ dieser\ Anzeige\ als\r\n\ einen\ String\ der\ angegebenen\ L?nge.\ Wenn\ der\ Wert\ der\ Anzeige\r\n\ kleiner\ als\ 'l?nge'\ ist,\ wird\ die\ Anzeige\ mit\ f?hrenden\r\n\ Nullen\ einger?ckt.\r\n
+comment6.params=ersatzwert
+comment6.target=void\ setzeWert(int)
+comment6.text=\r\n\ Setze\ den\ Wert\ der\ Anzeige\ auf\ den\ angegebenen\ 'ersatzwert'.\r\n\ Wenn\ der\ angegebene\ Wert\ unter\ Null\ oder\ ?ber\ dem\ Limit\ liegt,\r\n\ tue\ nichts.\r\n
+comment7.params=
+comment7.target=void\ erhoehen()
+comment7.text=\r\n\ Erh?he\ den\ Wert\ um\ Eins.\ Wenn\ das\ Limit\ erreicht\ ist,\ setze\r\n\ den\ Wert\ wieder\ auf\ den\ Initialwert.\ Wenn\ kein\ Initialwert\ gesetzt\ ist,\ \r\n\ erh?he\ den\ Wert\ um\ 1.\r\n
+numComments=8
